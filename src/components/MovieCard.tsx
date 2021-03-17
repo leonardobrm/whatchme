@@ -1,4 +1,4 @@
-import { Star, Clock } from 'react-feather';
+import { Star, Clock, Video } from 'react-feather';
 
 import '../styles/movie-card.scss';
 
@@ -10,6 +10,7 @@ interface MovieCardProps {
 }
 
 export function MovieCard(props: MovieCardProps) {
+
   return (
     <div className="movie-card">
       <img
